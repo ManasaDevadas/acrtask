@@ -1,0 +1,4 @@
+FROM manasadevadas/helloworld:v1
+COPY testfile /
+CMD ["/hello"] 
+
